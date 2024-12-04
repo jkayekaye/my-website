@@ -1,0 +1,109 @@
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-top: 60px; 
+    position: relative;
+    background-image: url('images/home-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-bottom: 10%;
+    margin-top: 4rem;
+}
+
+.profile {
+    margin-left: -5%;
+    align-items: center;
+    right: 20%;
+    top: 20%;
+    position: absolute;
+    
+}
+
+.profile img {
+    align-self:flex-start ;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    transition: 1.3s;
+    box-shadow: 0 10px 20px rgb(42, 159, 255);
+
+}
+.profile img:hover{
+    box-shadow: 0 10px 20px rgb(0, 51, 153);
+}
+.intro h1 {
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    background: #0A3981;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Arial";
+}
+
+.intro p {
+    font-size: 12px;
+    margin-bottom: 2rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: black;
+}
+
+.buttons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.buttons .btn1 {
+    background-color: #4379F2;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins";
+    font-weight: 900;
+}
+.buttons .btn2 {
+    background-color: #4379F2;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-family: "Poppins";
+    font-weight: 900;
+}
+
+.buttons .btn2:hover {
+    background-color:#9DBDFF;
+    color:black;
+    transform:scale(0.9);
+}
+.buttons .btn1:hover {
+    background-color: #9DBDFF;
+    color:black;
+    transform:scale(0.9);
+}
+section {
+    padding: 2rem;
+}
+
+#about, #projects, #contact {
+    padding-top: 60px; 
+}
+
+#projects .project {
+    margin: 1rem 0;
+}

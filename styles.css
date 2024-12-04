@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap");
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #121212;
+    color: #ffffff;
+}
+header {
+    background-color: #1f1f1f;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0px 10px rgb(90, 175, 255);
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center;
+}
+
+/* The logo should be aligned to the far left of the webpage */
+nav .logo {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #5BADFF;
+    font-family: "Poppins";
+    margin-left: 0; /* Ensure no extra margin on the left side */
+    position: absolute;
+    left: 1rem; /* Align to the far left of the page */
+}
+
+.nav-toggle {
+    display: none;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 40px; /* Push the nav items to the right */
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Plus Jakarta Sans";
+}
+
+nav ul li a:hover,
+nav ul li a:active {
+    color: rgb(58, 225, 255);
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0px 10px rgb(90, 175, 255);
+}
+
+footer p {
+    font-size: xx-small;
+}

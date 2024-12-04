@@ -1,0 +1,115 @@
+#html {
+    padding: 4rem 2rem;
+    text-align: center;
+    
+}
+
+.projects-intro {
+    margin-bottom: 10rem;
+}
+
+.experience-with {
+    font-size: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.logo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.logo-list li {
+    display: inline-block;
+}
+
+.logo-list img {
+    width: 20px;
+    height: 20px;
+}
+
+.projects-title {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #D5491D, #FF8660);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-weight: 800;
+}
+.projects-title1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #0055fe, #3a9afb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-weight: 800;
+}
+.projects-title2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: linear-gradient(to bottom, #c8ff00, #d2fa41);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Poppins";
+    font-weight: 800;
+}
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.project {
+    background-color: #373737;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.6s , background-color 0.4s ;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    background-color: #D0F0F4;
+    color: #121212;
+    box-shadow: 0 10px 20px rgb(42, 159, 255);
+}
+.project h3{
+    font-family: "Inter";
+    font-weight: 800;
+}
+.view-text {
+    font-size: 0.9rem;
+    color:#ccc;
+    margin-bottom: 0.5rem;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    color:#EFFAFD;
+    margin-bottom: 0.5rem;
+}
+.project:hover p{
+    color:#121212;
+}
+.project:hover h3{
+    color:#001D42;
+    font-family: "Inter";
+    font-weight: 800;
+}
+
+
+

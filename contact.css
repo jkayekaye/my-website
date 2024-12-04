@@ -1,0 +1,101 @@
+#contact {
+    text-align: center;
+    background-color: #608BC1;
+    padding: 4rem 2rem;
+    color: #ffffff;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.get-in-touch {
+    margin-bottom: 3rem;
+}
+
+.get-in-touch h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.get-in-touch form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-in-touch input,
+.get-in-touch textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.get-in-touch input::placeholder,
+.get-in-touch textarea::placeholder {
+    color: #888;
+    font-size: 0.9rem;
+}
+
+.get-in-touch button {
+    background-color: #4C73A1;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.get-in-touch button:hover {
+    background-color: #376092;
+    transform: scale(0.95);
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+.social-media a {
+    font-size: 2rem;
+    color: #ffffff;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #FFD700;
+    transform: scale(1.1);
+}

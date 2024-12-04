@@ -1,0 +1,119 @@
+#about {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+    color: #ffffff;
+    height: 100vh;
+    background-color: #608BC1;
+
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    top: 10%;
+    margin-top: 2rem;
+    align-items: left;
+}
+
+.about-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5rem;
+}
+
+.about-left img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    transition: 1.3s ;
+    box-shadow: 0 10px 20px rgb(42, 159, 255);
+}
+
+.about-left img:hover{
+    box-shadow: 0 10px 20px rgb(0, 51, 153);
+}
+.about-right {
+    flex: 2;
+    text-align: left;
+    padding-left: 5rem;
+    font-family: "Poppins";
+    font-weight: 800;
+}
+
+.about-right h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background: #BFECFF;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.about-info .work-experience, .about-info .education {
+    flex: 1;
+    background-color: #EFFAFD;
+    border-radius: 30px;
+    padding: 0%;
+    align-items: center;
+    margin-right: 0 1rem;
+    margin-right: 1rem;
+    transition: all 0.4;
+
+}
+.about-info .work-experience:hover, .about-info .education:hover {
+    transform: scale(1.03);
+    box-shadow: 0 10px 20px rgb(255, 42, 42);
+}
+.about-info .work-experience img,.about-info .education img{
+    height: 20px;
+    width: 25px;
+    margin-left: 9.5rem;
+    margin-top: 1rem;
+}
+.about-info .work-experience img:hover,.about-info .education img:hover{
+    transform: scale(1.1);
+}
+.about-info .work-experience h3, .about-info .education h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    color: #001D42;
+    text-align: center;
+}
+
+.about-info .work-experience p, .about-info .education p {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    color:#121212;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 300;
+    
+}
+
+.about-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+    font-family: "Poppins";
+    font-weight: 300;
+
+}
+
+
+
+
